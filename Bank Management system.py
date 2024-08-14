@@ -1,5 +1,5 @@
 import mysql.connector as a
-con=a.connect(host='localhost',user='root',passwd='27172546',database='BANK1')
+con=a.connect(host='localhost',user='root',passwd='123456',database='BANK1')
 cur=con.cursor()
 
 '''cur.execute('create table account(name varchar(25) primary key,acno varchar(10)\
